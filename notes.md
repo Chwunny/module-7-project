@@ -19,4 +19,4 @@ Append extraLargeArray: 2.356166 ms
 
 Read over the results, and write a paragraph that explains the pattern you see. How does each function “scale”? Which of the two functions scales better? How can you tell?
 
-The second function obviously scaled better because the largest array is completed roughly ~ 456 times faster. The insert function has a time complexity of O(n) or linear, while the append function has a time complexity of O(1) or constant. This is beacause the insert function uses .unshift() while the append function uses .push() 
+The second function obviously scaled better because the largest array is completed roughly ~ 456 times faster. The insert function has a time complexity of O(n^2) or quadratic, while the append function has a time complexity of O(n) or Linear. This is beacause the insert function uses .unshift() while the append function uses .push()
